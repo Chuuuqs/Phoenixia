@@ -67,3 +67,5 @@ test.delete('/usedel/:name', (req,res) => {
     users.splice(userIndex, 1);
     res.status(200).json({message: "user deleted successfully"});
 })
+
+//main ready here
